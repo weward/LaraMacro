@@ -1,4 +1,5 @@
-# A set of custom macros for Laravel
+
+# LaraMacro - Laravel Custom Macros
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/weward/laramacro.svg?style=flat-square)](https://packagist.org/packages/weward/laramacro)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/weward/laramacro/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/weward/laramacro/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -7,12 +8,22 @@
 
 A set of custom macros for Laravel
 
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+    - [Response Macro](#response-macro)
+        - [jsonApi()](#jsonapi)
+-
+
+
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require weward/laramacro
+# for the meantime
+composer require weward/laramacro:dev-main 
 ```
 
 You may register the service srovider at `config/app.php` 
