@@ -26,9 +26,16 @@ You can install the package via composer:
 composer require weward/laramacro:dev-master 
 ```
 
+Publish Service Provider
+
+```bash
+php artisan vendor:publish --tag=laramacro-providers
+```
+
+
 You may register the service srovider at `config/app.php` 
 
-```
+```php
 'providers' => [
 
     // ...
