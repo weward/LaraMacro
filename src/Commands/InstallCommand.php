@@ -1,11 +1,11 @@
 <?php
 
-namespace Weward\JsonApi\Commands;
+namespace Weward\LaraMacro\Commands;
 
 use Closure;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Spatie\LaravelPackageTools\Package;
+use Weward\LaraMacro\Package;
 
 class InstallCommand extends Command
 {

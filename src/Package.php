@@ -3,7 +3,7 @@
 namespace Weward\LaraMacro;
 
 use Illuminate\Support\Str;
-use Spatie\LaravelPackageTools\Commands\InstallCommand;
+use Weward\LaraMacro\Commands\InstallCommand;
 
 class Package
 {
