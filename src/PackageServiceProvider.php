@@ -1,6 +1,6 @@
 <?php
 
-namespace Weward\JsonApi;
+namespace Weward\LaraMacro;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\View;

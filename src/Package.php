@@ -1,6 +1,6 @@
 <?php
 
-namespace Weward\JsonApi;
+namespace Weward\LaraMacro;
 
 use Illuminate\Support\Str;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
