@@ -23,18 +23,6 @@ class LaraMacroServiceProvider extends PackageServiceProvider
          */
         $package
             ->name($this->packageName)
-            ->hasResponseMacro()
-            ->hasInstallCommand(function (InstallCommand $command, $packageInstance) {
-                $command
-                ->startWith(function (InstallCommand $command) {
-                    $command->info("Installing package {$this->packageName}");
-                })
-
-                // ... Commands/InstallCommand
-
-                ->endWith(function (InstallCommand $command) {
-                    $command->info("Done installing package {$this->packageName}");
-                });
-            });
+            ->hasResponseMacro();
     }
 }
