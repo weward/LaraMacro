@@ -23,7 +23,7 @@ You can install the package via composer:
 
 ```bash
 # for the meantime
-composer require weward/laramacro:dev-main 
+composer require weward/laramacro:dev-master 
 ```
 
 You may register the service srovider at `config/app.php` 
