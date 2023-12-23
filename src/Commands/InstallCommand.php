@@ -193,4 +193,9 @@ class InstallCommand extends Command
 
         return $this;
     }
+
+    public function publishLaraMacroServiceProviderInApp(): void
+    {
+        $this->callSilent('vendor:publish', ['--tag' => $this->package->shortName() . '-provider']);
+    }
 }
